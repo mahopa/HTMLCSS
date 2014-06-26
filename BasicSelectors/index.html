@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Selectors</title>
+    <style>
+        visibility hidden vs display none
+        inline
+        block
+        inline-block
+        body{
+            background-color:black;
+        }
+        ul{
+            list-style-type: none;
+        }
+        #first-div{
+            color: red;
+            background-color:black;
+            height:100%;
+            width:100%;
+        }
+        .boxed{
+            display:inline-block;
+            height: 50px;
+            border: 2px solid red;
+            background-color: black;
+            padding: 0;
+        }
+        .boxed a {
+            vertical-align: middle;
+            line-height: 40px;
+            text-decoration: none;
+            color: white;
+            padding:5px;
+            font-size: 2em;
+            display:block
+
+        }
+        .boxed a:hover{
+            background-color:red;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="first-div">
+        <h2>Links</h2>
+        <ul id="links">
+            <li class="boxed"><a href="http://developer.mozilla.com">Mozilla Developer Network</a></li>
+            <li class="boxed"><a href="http://www.microsoft.com">Microsoft</a></li>
+            <li class="boxed"><a href="http://www.codercamps.com">Coder Camps</a></li>
+        </ul>
+        
+
+    </div>
+
+
+</body>
+</html>
